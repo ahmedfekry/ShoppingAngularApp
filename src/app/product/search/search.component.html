@@ -1,0 +1,12 @@
+
+<div class="input-group">
+    <!-- <input type="text" class="form-control" [(ngModel)] = "textSearch" 
+           aria-label="Text input with segmented dropdown button" (input)="inputTextChange($event)"> -->
+        <input type="text" class="form-control" placeholder="Search here" #searchInput >
+    <button type="button" class="btn btn-success" (click)="updateSearch()">Search</button>
+</div>
+<div class="row mt-5">
+    <div class="text-center text-lg-start " *ngIf="textSearch">
+        <h4>The search result for : <strong>{{textSearch}}</strong></h4>
+    </div>
+</div>

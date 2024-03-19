@@ -1,0 +1,19 @@
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="row justify-content-center">
+      <div class="col-10  border-1 border-black border-opacity-100">
+        <img [src]="Product.images[0]" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <h3>{{Product.title}}</h3>
+    </div>
+    
+  </div>
+</div>

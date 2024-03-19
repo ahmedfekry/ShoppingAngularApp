@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row mt-5 justify-content-center">
+        <div class="col-6">
+            <app-search (onSearchTextChanged)="textSearchChanged($event)"></app-search>
+        </div>
+    </div>
+    <app-product-list [searchText]="searchText" #productListComponent></app-product-list>
+
+    <app-product-details *ngIf="productListComponent.selectedProduct" [ProductListComp]="productList"></app-product-details>
+</div>

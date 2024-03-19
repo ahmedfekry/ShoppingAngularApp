@@ -1,0 +1,14 @@
+<div class="row justify-content-center">
+    <app-filter 
+        [all]="products.length" 
+        [inStock]="totalInStock" 
+        [outOfStock]="totalOutOfStock"
+        (selectFilterEvent)="filterChanged($event)"
+        ></app-filter>
+    <div class="row mt-5">
+        <!-- selectedFilter === 'all' || product.isAvailable.toString() === selectedFilter -->
+        <div class="col-4 my-3" *ngFor="let product of productList" >
+            <app-product-item [product]="product" (click)="selectedProduct = product"></app-product-item>
+        </div>
+    </div>
+</div>

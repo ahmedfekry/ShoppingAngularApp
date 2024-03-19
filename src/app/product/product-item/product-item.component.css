@@ -1,0 +1,22 @@
+.card-img-top{
+    width: 30rem ;
+    height: 20rem;
+}
+
+.discount{
+    width: 6rem; 
+    padding: 3px;
+    text-align: center;
+    position: absolute;
+    background-color: #fbaf34;
+    color: black;
+    z-index: 1000;
+    right: 0px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.card-text{
+    font-size: 0.9rem;
+}

@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="card-img">
+        <img [src]="product.thumbnail" class="card-img-top img-thumbnail" alt="...">
+        <div class="discount" *ngIf="product.discountPercentage > 0">{{product.discountPercentage}}% OFF</div>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{product.title}}</h5>
+        <p class="card-text">
+            {{product.description.substring(0,50)}}
+        </p>
+        <p>Price : {{ '$'+product.price}}</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">-</button>
+            <button type="button" disabled class="btn btn-primary">0</button>
+            <button type="button" class="btn btn-primary">+</button>
+        </div>
+        <div class="mt-3">
+            <span [ngClass]="{'alert':true}" [ngStyle]="{fontWeight: 'bold',
+                                  color: product.isAvailable ? 'green' : 'red'}">
+                {{product.isAvailable ? "Available in Stock" : "Not Available in stack"}}
+            </span>
+        </div>
+    </div>
+</div>
