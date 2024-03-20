@@ -11,9 +11,21 @@
         <img [src]="Product.images[0]" class="img-fluid" alt="">
       </div>
     </div>
+    <hr>
     <div class="row mt-4">
       <h3>{{Product.title}}</h3>
     </div>
-    
+    <hr>
+    <div class="row">
+      <h5>Description</h5>
+
+      <p>{{Product.description}}</p>
+    </div>
+    <div class="row">
+      <button class="btn btn-success" *ngIf="Product.isAvailable;else notifyMeTemplate ">Add To Cart</button>
+      <ng-template #notifyMeTemplate>
+        <button class="btn btn-primary">Notify Me</button>
+      </ng-template>
+    </div>
   </div>
 </div>
