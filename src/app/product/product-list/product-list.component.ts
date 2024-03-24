@@ -20,13 +20,9 @@ export class ProductListComponent {
       stock: 94,
       brand: "Apple",
       category: "smartphones",
-      thumbnail: "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      thumbnail: "/assets/images/product1.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/1/1.jpg",
-        "https://cdn.dummyjson.com/product-images/1/2.jpg",
-        "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
-        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+        "/assets/images/product1.jpg"
       ]
     },
     {
@@ -40,12 +36,9 @@ export class ProductListComponent {
       stock: 34,
       brand: "Apple",
       category: "smartphones",
-      thumbnail: "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      thumbnail: "/assets/images/product2.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg",
-        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+        "/assets/images/product2.jpg"
       ]
     },
     {
@@ -59,9 +52,9 @@ export class ProductListComponent {
       stock: 36,
       brand: "Samsung",
       category: "smartphones",
-      thumbnail: "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      thumbnail: "/assets/images/product3.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+        "/assets/images/product3.jpg"
       ]
     },
     {
@@ -75,13 +68,9 @@ export class ProductListComponent {
       stock: 123,
       brand: "OPPO",
       category: "smartphones",
-      thumbnail: "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+      thumbnail: "/assets/images/product4.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/4/1.jpg",
-        "https://cdn.dummyjson.com/product-images/4/2.jpg",
-        "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
-        "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+        "/assets/images/product4.jpg"
       ]
     },
     {
@@ -95,11 +84,9 @@ export class ProductListComponent {
       stock: 32,
       brand: "Huawei",
       category: "smartphones",
-      thumbnail: "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+      thumbnail: "/assets/images/product5.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/5/1.jpg",
-        "https://cdn.dummyjson.com/product-images/5/2.jpg",
-        "https://cdn.dummyjson.com/product-images/5/3.jpg"
+        "/assets/images/product5.jpg"
       ]
     },
     {
@@ -113,12 +100,9 @@ export class ProductListComponent {
       stock: 83,
       brand: "Apple",
       category: "laptops",
-      thumbnail: "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+      thumbnail: "/assets/images/product6.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/6/1.png",
-        "https://cdn.dummyjson.com/product-images/6/2.jpg",
-        "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
+        "/assets/images/product6.jpg"
       ]
     },
     {
@@ -132,12 +116,9 @@ export class ProductListComponent {
       stock: 50,
       brand: "Samsung",
       category: "laptops",
-      thumbnail: "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+      thumbnail: "/assets/images/product7.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/7/1.jpg",
-        "https://cdn.dummyjson.com/product-images/7/2.jpg",
-        "https://cdn.dummyjson.com/product-images/7/3.jpg",
-        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+        "/assets/images/product7.jpg"
       ]
     },
     {
@@ -151,13 +132,9 @@ export class ProductListComponent {
       stock: 68,
       brand: "Microsoft Surface",
       category: "laptops",
-      thumbnail: "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+      thumbnail: "/assets/images/product8.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/8/1.jpg",
-        "https://cdn.dummyjson.com/product-images/8/2.jpg",
-        "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
-        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+        "/assets/images/product8.jpg"
       ]
     },
     {
@@ -171,13 +148,9 @@ export class ProductListComponent {
       stock: 96,
       brand: "Infinix",
       category: "laptops",
-      thumbnail: "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+      thumbnail: "/assets/images/product9.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/9/1.jpg",
-        "https://cdn.dummyjson.com/product-images/9/2.png",
-        "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
-        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+        "/assets/images/product9.jpg"
       ]
     },
     {
@@ -191,12 +164,9 @@ export class ProductListComponent {
       stock: 89,
       brand: "HP Pavilion",
       category: "laptops",
-      thumbnail: "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+      thumbnail: "/assets/images/product10.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/10/1.jpg",
-        "https://cdn.dummyjson.com/product-images/10/2.jpg",
-        "https://cdn.dummyjson.com/product-images/10/3.jpg",
-        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+        "/assets/images/product10.jpg"
       ]
     },
     {
@@ -210,12 +180,9 @@ export class ProductListComponent {
       stock: 65,
       brand: "Impression of Acqua Di Gio",
       category: "fragrances",
-      thumbnail: "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
+      thumbnail: "/assets/images/product11.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/11/1.jpg",
-        "https://cdn.dummyjson.com/product-images/11/2.jpg",
-        "https://cdn.dummyjson.com/product-images/11/3.jpg",
-        "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
+        "/assets/images/product11.jpg"
       ]
     },
     {
@@ -229,13 +196,9 @@ export class ProductListComponent {
       stock: 52,
       brand: "Royal_Mirage",
       category: "fragrances",
-      thumbnail: "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
+      thumbnail: "/assets/images/product12.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/12/1.jpg",
-        "https://cdn.dummyjson.com/product-images/12/2.jpg",
-        "https://cdn.dummyjson.com/product-images/12/3.png",
-        "https://cdn.dummyjson.com/product-images/12/4.jpg",
-        "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
+        "/assets/images/product12.jpg"
       ]
     },
     {
@@ -249,13 +212,9 @@ export class ProductListComponent {
       stock: 61,
       brand: "Fog Scent Xpressio",
       category: "fragrances",
-      thumbnail: "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
+      thumbnail: "/assets/images/product13.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/13/1.jpg",
-        "https://cdn.dummyjson.com/product-images/13/2.png",
-        "https://cdn.dummyjson.com/product-images/13/3.jpg",
-        "https://cdn.dummyjson.com/product-images/13/4.jpg",
-        "https://cdn.dummyjson.com/product-images/13/thumbnail.webp"
+        "/assets/images/product13.jpg"
       ]
     },
     {
@@ -269,12 +228,9 @@ export class ProductListComponent {
       stock: 114,
       brand: "Al Munakh",
       category: "fragrances",
-      thumbnail: "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
+      thumbnail: "/assets/images/product14.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/14/1.jpg",
-        "https://cdn.dummyjson.com/product-images/14/2.jpg",
-        "https://cdn.dummyjson.com/product-images/14/3.jpg",
-        "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
+        "/assets/images/product14.jpg"
       ]
     },
     {
@@ -288,13 +244,9 @@ export class ProductListComponent {
       stock: 105,
       brand: "Lord - Al-Rehab",
       category: "fragrances",
-      thumbnail: "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
+      thumbnail: "/assets/images/product15.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/15/1.jpg",
-        "https://cdn.dummyjson.com/product-images/15/2.jpg",
-        "https://cdn.dummyjson.com/product-images/15/3.jpg",
-        "https://cdn.dummyjson.com/product-images/15/4.jpg",
-        "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
+        "/assets/images/product15.jpg"
       ]
     },
     {
@@ -308,13 +260,9 @@ export class ProductListComponent {
       stock: 110,
       brand: "L'Oreal Paris",
       category: "skincare",
-      thumbnail: "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
+      thumbnail: "/assets/images/product16.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/16/1.png",
-        "https://cdn.dummyjson.com/product-images/16/2.webp",
-        "https://cdn.dummyjson.com/product-images/16/3.jpg",
-        "https://cdn.dummyjson.com/product-images/16/4.jpg",
-        "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
+        "/assets/images/product16.jpg"
       ]
     },
     {
@@ -328,12 +276,9 @@ export class ProductListComponent {
       stock: 78,
       brand: "Hemani Tea",
       category: "skincare",
-      thumbnail: "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
+      thumbnail: "/assets/images/product17.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/17/1.jpg",
-        "https://cdn.dummyjson.com/product-images/17/2.jpg",
-        "https://cdn.dummyjson.com/product-images/17/3.jpg",
-        "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
+        "/assets/images/product17.jpg"
       ]
     },
     {
@@ -347,13 +292,9 @@ export class ProductListComponent {
       stock: 88,
       brand: "Dermive",
       category: "skincare",
-      thumbnail: "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
+      thumbnail: "/assets/images/product18.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/18/1.jpg",
-        "https://cdn.dummyjson.com/product-images/18/2.jpg",
-        "https://cdn.dummyjson.com/product-images/18/3.jpg",
-        "https://cdn.dummyjson.com/product-images/18/4.jpg",
-        "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
+        "/assets/images/product18.jpg"
       ]
     },
     {
@@ -367,12 +308,9 @@ export class ProductListComponent {
       stock: 54,
       brand: "ROREC White Rice",
       category: "skincare",
-      thumbnail: "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
+      thumbnail: "/assets/images/product19.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/19/1.jpg",
-        "https://cdn.dummyjson.com/product-images/19/2.jpg",
-        "https://cdn.dummyjson.com/product-images/19/3.png",
-        "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
+        "/assets/images/product19.jpg"
       ]
     },
     {
@@ -386,13 +324,9 @@ export class ProductListComponent {
       stock: 140,
       brand: "Fair & Clear",
       category: "skincare",
-      thumbnail: "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
+      thumbnail: "/assets/images/product20.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/20/1.jpg",
-        "https://cdn.dummyjson.com/product-images/20/2.jpg",
-        "https://cdn.dummyjson.com/product-images/20/3.jpg",
-        "https://cdn.dummyjson.com/product-images/20/4.jpg",
-        "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
+        "/assets/images/product20.jpg"
       ]
     },
     {
@@ -406,11 +340,9 @@ export class ProductListComponent {
       stock: 133,
       brand: "Saaf & Khaas",
       category: "groceries",
-      thumbnail: "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
+      thumbnail: "/assets/images/product21.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/21/1.png",
-        "https://cdn.dummyjson.com/product-images/21/2.jpg",
-        "https://cdn.dummyjson.com/product-images/21/3.jpg"
+        "/assets/images/product21.jpg"
       ]
     },
     {
@@ -424,11 +356,9 @@ export class ProductListComponent {
       stock: 146,
       brand: "Bake Parlor Big",
       category: "groceries",
-      thumbnail: "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
+      thumbnail: "/assets/images/product22.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/22/1.jpg",
-        "https://cdn.dummyjson.com/product-images/22/2.jpg",
-        "https://cdn.dummyjson.com/product-images/22/3.jpg"
+        "/assets/images/product22.jpg"
       ]
     },
     {
@@ -442,13 +372,9 @@ export class ProductListComponent {
       stock: 26,
       brand: "Baking Food Items",
       category: "groceries",
-      thumbnail: "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
+      thumbnail: "/assets/images/product23.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/23/1.jpg",
-        "https://cdn.dummyjson.com/product-images/23/2.jpg",
-        "https://cdn.dummyjson.com/product-images/23/3.jpg",
-        "https://cdn.dummyjson.com/product-images/23/4.jpg",
-        "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg"
+        "/assets/images/product23.jpg"
       ]
     },
     {
@@ -462,13 +388,9 @@ export class ProductListComponent {
       stock: 113,
       brand: "fauji",
       category: "groceries",
-      thumbnail: "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
+      thumbnail: "/assets/images/product24.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/24/1.jpg",
-        "https://cdn.dummyjson.com/product-images/24/2.jpg",
-        "https://cdn.dummyjson.com/product-images/24/3.jpg",
-        "https://cdn.dummyjson.com/product-images/24/4.jpg",
-        "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg"
+        "/assets/images/product24.jpg"
       ]
     },
     {
@@ -482,13 +404,9 @@ export class ProductListComponent {
       stock: 47,
       brand: "Dry Rose",
       category: "groceries",
-      thumbnail: "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
+      thumbnail: "/assets/images/product25.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/25/1.png",
-        "https://cdn.dummyjson.com/product-images/25/2.jpg",
-        "https://cdn.dummyjson.com/product-images/25/3.png",
-        "https://cdn.dummyjson.com/product-images/25/4.jpg",
-        "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg"
+        "/assets/images/product25.jpg"
       ]
     },
     {
@@ -502,14 +420,9 @@ export class ProductListComponent {
       stock: 131,
       brand: "Boho Decor",
       category: "home-decoration",
-      thumbnail: "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
+      thumbnail: "/assets/images/product26.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/26/1.jpg",
-        "https://cdn.dummyjson.com/product-images/26/2.jpg",
-        "https://cdn.dummyjson.com/product-images/26/3.jpg",
-        "https://cdn.dummyjson.com/product-images/26/4.jpg",
-        "https://cdn.dummyjson.com/product-images/26/5.jpg",
-        "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg"
+        "/assets/images/product26.jpg"
       ]
     },
     {
@@ -523,13 +436,9 @@ export class ProductListComponent {
       stock: 17,
       brand: "Flying Wooden",
       category: "home-decoration",
-      thumbnail: "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
+      thumbnail: "/assets/images/product27.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/27/1.jpg",
-        "https://cdn.dummyjson.com/product-images/27/2.jpg",
-        "https://cdn.dummyjson.com/product-images/27/3.jpg",
-        "https://cdn.dummyjson.com/product-images/27/4.jpg",
-        "https://cdn.dummyjson.com/product-images/27/thumbnail.webp"
+        "/assets/images/product27.jpg"
       ]
     },
     {
@@ -543,13 +452,9 @@ export class ProductListComponent {
       stock: 54,
       brand: "LED Lights",
       category: "home-decoration",
-      thumbnail: "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
+      thumbnail: "/assets/images/product28.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/28/1.jpg",
-        "https://cdn.dummyjson.com/product-images/28/2.jpg",
-        "https://cdn.dummyjson.com/product-images/28/3.png",
-        "https://cdn.dummyjson.com/product-images/28/4.jpg",
-        "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
+        "/assets/images/product28.jpg"
       ]
     },
     {
@@ -563,12 +468,9 @@ export class ProductListComponent {
       stock: 54,
       brand: "Golden",
       category: "home-decoration",
-      thumbnail: "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
+      thumbnail: "/assets/images/product2.jpg",
       images: [
-        "https://cdn.dummyjson.com/product-images/30/1.jpg",
-        "https://cdn.dummyjson.com/product-images/30/2.jpg",
-        "https://cdn.dummyjson.com/product-images/30/3.jpg",
-        "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
+        "/assets/images/product2.jpg"
       ]
     }
   ];
